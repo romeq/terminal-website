@@ -43,7 +43,7 @@ function TypingAnimation({
         })()
     }, [])
 
-    return currentText
+    return <>{currentText}</>
 }
 
 function Command({ text, output, whenDone }: { text: string; output: string; whenDone: () => void }) {
