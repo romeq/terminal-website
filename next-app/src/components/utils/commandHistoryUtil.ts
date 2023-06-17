@@ -5,7 +5,7 @@ function stringifyScrobble(sc: Scrobble) {
 - Album '${sc.album}' ${sc.date ? `listened at ${sc.date}` : ""}`
 }
 
-const socials = ["GitHub: https://github.com", "Telegram: https://t.me/toke6"]
+const socials = ["GitHub: https://github.com/romeq", "Telegram: https://t.me/toke6"]
 
 async function commandHistory() {
     let commandHistory = {
