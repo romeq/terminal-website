@@ -2,7 +2,6 @@ import { useEffect, useState } from "react"
 import styles from "../styles/Home.module.css"
 import { commandHistory as preloadHistory } from "../components/utils/commandHistoryUtil"
 import type { InferGetServerSidePropsType, GetServerSideProps } from "next"
-import React from "react"
 
 export const getServerSideProps: GetServerSideProps<{
     commandHistory: {}
