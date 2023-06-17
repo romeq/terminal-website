@@ -1,0 +1,23 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: monospace;
+  background-color: black;
+  color: white;
+
+  max-width: 100%;
+  overflow-wrap: break-word;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
